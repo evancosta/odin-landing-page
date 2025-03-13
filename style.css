@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo,
+.header-links,
+.hero-subtext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
