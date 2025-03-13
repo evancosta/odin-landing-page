@@ -9,16 +9,44 @@ body {
     background-color: #1F2937;
 }
 
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button,
+.call-to-action-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
-}
-
-.header-logo,
-.header-links,
-.hero-subtext {
-    font-size: 24px;
-    color: #F9FAF8;
+    align-items: center;
 }
 
 .header-links {
@@ -27,8 +55,8 @@ body {
     gap: 16px;
 }
 
-.hero-text {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
+.hero-subtext,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
