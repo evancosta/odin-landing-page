@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -18,13 +22,16 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 8px;
 }
 
-.hero-subtext,
 .header-links,
+.hero-subtext,
+button,
 .footer-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 8px;
 }
 
 .header-logo {
@@ -71,4 +78,28 @@ button,
 
 .hero-section {
     padding: 126px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.hero-wrapper {
+    width: 450px;
+    height: 250px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 40px;
+    border-radius: 8px;
+}
+
+.hero-placeholder {
+    background-color: #808080; /* this color was not specified */
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
