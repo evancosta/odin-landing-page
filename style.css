@@ -1,7 +1,12 @@
 body {
     height: 100vh;
+    width: 100vw;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
+/* colors and font styles */
 
 .header,
 .hero-section,
@@ -13,6 +18,13 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.hero-subtext,
+.header-links,
+.footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-logo {
@@ -43,6 +55,8 @@ button,
     color: #1F2937;
 }
 
+/* layout */
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -55,8 +69,6 @@ button,
     gap: 16px;
 }
 
-.hero-subtext,
-.header-links {
-    font-size: 18px;
-    color: #E5E7EB;
+.hero-section {
+    padding: 126px;
 }
