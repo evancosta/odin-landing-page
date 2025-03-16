@@ -62,6 +62,11 @@ button,
     color: #1F2937;
 }
 
+.quote-source {
+    font-weight: 900;
+    text-align: right;
+}
+
 /* layout */
 
 .header {
@@ -114,7 +119,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 80px;
-    padding-bottom: 64px
+    padding-bottom: 80px
 }
 
 .image-wrapper {
@@ -132,4 +137,19 @@ button {
 .information-subtext {
     width: 112px;
     text-align: center;
+}
+
+.quote-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote-text {
+    max-width: 640px;
+}
+
+.quote-source {
+    min-width: 640px;
 }
