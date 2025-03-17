@@ -8,6 +8,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /* colors and font styles */
@@ -62,7 +63,8 @@ button,
     color: #1F2937;
 }
 
-.quote-source {
+.quote-source { /* this information was not specified */
+    font-size: 24px;
     font-weight: 900;
     text-align: right;
 }
@@ -70,6 +72,8 @@ button,
 /* layout */
 
 .header {
+    width: 1440px;
+    padding: 0px 126px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,6 +86,7 @@ button,
 }
 
 .hero-section {
+    width: 1440px;
     padding: 126px;
     display: flex;
     justify-content: center;
@@ -110,6 +115,7 @@ button {
 }
 
 .information-section {
+    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +124,7 @@ button {
 .information-subsection {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 48px;
     padding-bottom: 80px
 }
 
@@ -128,18 +134,19 @@ button {
 }
 
 .information-placeholder {
-    width: 112px;
-    height: 112px;
+    width: 158px;
+    height: 158px;
     border: solid #3882F6;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .information-subtext {
-    width: 112px;
+    width: 158px;
     text-align: center;
 }
 
 .quote-section {
+    width: 1440px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -148,13 +155,16 @@ button {
 
 .quote-text {
     max-width: 640px;
+    margin-bottom: 0px;
 }
 
 .quote-source {
     min-width: 640px;
+    margin-top: 0px;
 }
 
 .call-to-action-section {
+    width: 1440px;
     align-self: center;
     display: flex;
     justify-content: center;
@@ -178,6 +188,10 @@ button {
 
 .call-to-action-button {
     border-color: #F9FAF8;
+}
+
+.footer {
+    width: 1440px;
 }
 
 .footer-text {
