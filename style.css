@@ -155,8 +155,15 @@ button {
 }
 
 .call-to-action-section {
+    align-self: center;
     display: flex;
     justify-content: center;
+    gap: 32px;
+    width: 800px;
+    height: 250px;
+    padding: 32px;
+    border-radius: 8px;
+    margin: 80px 160px;
 }
 
 .call-to-action-wrapper {
@@ -164,7 +171,16 @@ button {
     flex-direction: column;
 }
 
+.call-to-action-text,
+.call-to-action-subtext {
+    margin: 0px;
+}
+
 .call-to-action-button {
-    max-width: 108px;
-    max-height: 31px;
+    border-color: #F9FAF8;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 32px;
 }
